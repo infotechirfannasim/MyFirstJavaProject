@@ -1,1 +1,2 @@
-# MyFirstJavaProject-
+# MyFirstJavaProject
+MyFirstJavaProject
