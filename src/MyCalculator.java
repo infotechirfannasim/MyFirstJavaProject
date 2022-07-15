@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class MyCalculator {
 
+    // project for makki
     public static void main(String[] args) {
         int num1;
         int num2;
