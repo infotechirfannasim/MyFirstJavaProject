@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class MyCalculator {
 
     // project for makki
+    // project with irfan
     public static void main(String[] args) {
         int num1;
         int num2;
