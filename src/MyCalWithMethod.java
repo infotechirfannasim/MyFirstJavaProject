@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MyCalculator {
+public class MyCalWithMethod {
 
     public static void main(String[] args) {
         int num1;
@@ -19,14 +19,30 @@ public class MyCalculator {
         op = in.next();
 
         if (op.equalsIgnoreCase("+")) {
-            result = num1 + num2;
+            result = sum(num1, num2);
         } else if (op.equalsIgnoreCase("-")) {
-            result = num1 - num2;
+            result = minus(num1, num2);
         } else if (op.equalsIgnoreCase("*")) {
-            result = num1 * num2;
+            result = multiply(num1, num2);
         } else {
-            result = num1 / num2;
+            result = divide(num1, num2);
         }
         System.out.println("The result is: " + result);
+    }
+
+    public static int sum(int num1, int num2){
+        return num1 + num2;
+    }
+
+    public static int minus(int num1, int num2){
+        return num1 - num2;
+    }
+
+    public static int multiply(int num1, int num2){
+        return num1 * num2;
+    }
+
+    public static int divide(int num1, int num2){
+        return num1 / num2;
     }
 }
