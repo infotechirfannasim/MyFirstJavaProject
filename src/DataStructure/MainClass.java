@@ -28,9 +28,6 @@ public class MainClass {
             System.out.println(std);
         }
 
-        // Assignments
-        // 1- Calculate Prime Number with default value
-        // 2- Calculate prime number with user given value
-        // 3- write a method of prime number, and call it from main method, pass number and check weather it is prime number or not
+
     }
 }
