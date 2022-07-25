@@ -1,0 +1,8 @@
+ // Assignments
+ 1- Calculate Prime Number with default value
+ 2- Calculate prime number with user given value
+ 3- write a method of prime number, and call it from main method, pass number and check weather it is prime number or not
+ 4- Write a program to print numbers from 1 to 10.
+ 5- Write a program to calculate the sum of first 10 natural number.
+ 6- Write a program to print Fibonacci series of n terms where n is input by user : 0 1 1 2 3 5 8 13 24 .....
+
